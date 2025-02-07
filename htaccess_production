@@ -1,0 +1,33 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Redirect Forbidden Access to forbidden.html
+RewriteCond %{REQUEST_URI} ^/data/ [NC]
+RewriteRule .* /forbidden.html [R=403,L]
+
+# Alternative: Block Access to the Directory
+<FilesMatch "^data/.*$">
+    ErrorDocument 403 /forbidden.html
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "^scripts/.*$">
+    ErrorDocument 403 /forbidden.html
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "^assets/.*$">
+    ErrorDocument 403 /forbidden.html
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "connect.php">
+    ErrorDocument 403 /forbidden.html
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "settings.php">
+    ErrorDocument 403 /forbidden.html
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

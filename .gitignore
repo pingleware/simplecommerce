@@ -1,0 +1,5 @@
+/wp-config.php
+/.htaccess
+/wp-content/languages/
+/wp-content/uploads/
+._*

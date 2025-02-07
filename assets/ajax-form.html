@@ -1,0 +1,18 @@
+<form id="ajax-form">
+    Name: <input type="text" id="name" name="name">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="response"></div>
+  <script>
+  document.getElementById('ajax-form').onsubmit = function(event) {
+      event.preventDefault();
+      var name = document.getElementById('name').value;
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'ajax-handler.php', true);
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhr.onload = function() {
+          document.getElementById('response').innerHTML = this.responseText;
+      };
+      xhr.send('name=' + encodeURIComponent(name));
+  };
+  </script>

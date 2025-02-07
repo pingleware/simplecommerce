@@ -1,0 +1,8 @@
+# Prevent directory listing
+Options -Indexes
+
+# Deny all access
+Deny from all
+
+# Error Document
+ErrorDocument 403 /forbidden.html
