@@ -9,3 +9,7 @@ A lightweight, open-source eCommerce framework that integrates Stripe for produc
 - composer stripe library (included)
 
 ## Official User Guide
+
+## Live Preview
+
+[my-buy-it-now.com](https://my-buy-it-now.com)
