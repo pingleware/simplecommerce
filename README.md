@@ -85,6 +85,7 @@ Your SimpleCommerce site is now running at:
 - Sitemap and robots.txt creation
 
 ## Official User Guide
+**COMING SOON!**
 
 ## Live Preview
 
