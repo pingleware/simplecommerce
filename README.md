@@ -8,6 +8,75 @@ A lightweight, open-source eCommerce framework that integrates Stripe for produc
 - PHP curl module enabled
 - composer stripe library (included)
 
+## Quickstart
+Here’s a **Quickstart Guide** in Markdown for setting up SimpleCommerce on WSL:  
+
+---
+
+### **Quickstart Guide for WSL**
+This guide walks you through setting up **SimpleCommerce** on **Windows Subsystem for Linux (WSL)**.
+
+---
+
+## **1. Install WSL**  
+Open **PowerShell as Administrator** and run:  
+```powershell
+wsl --install
+```
+If you already have WSL installed, make sure it's up to date:  
+```powershell
+wsl --update
+```
+Restart your PC if prompted.
+
+---
+
+## **2. Install PHP & Required Components**  
+Launch **WSL** and install the necessary dependencies:  
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y php php-cli php-sqlite3 unzip curl git composer
+```
+
+---
+
+## **3. Clone SimpleCommerce Repository**  
+Navigate to your preferred directory and clone the repo:  
+```bash
+cd ~
+git clone https://github.com/pingleware/simplecommerce.git
+cd simplecommerce
+```
+
+---
+
+## **4. Start WSL from the Project Directory**  
+To quickly launch WSL in this directory from **Windows**, run:  
+```powershell
+wsl ~ -d Ubuntu -e bash -c "cd ~/simplecommerce && bash"
+```
+
+---
+
+## **5. Install Dependencies**  
+Inside WSL, run:  
+```bash
+composer update
+```
+
+---
+
+## **6. Start the Development Server**  
+Run the built-in PHP server:  
+```bash
+php -S localhost:8080 -t .
+```
+Your SimpleCommerce site is now running at:  
+🔗 [http://localhost:8080](http://localhost:8080)
+
+---
+
+
 ## Features
 
 - No personal identifying information kept on public server
