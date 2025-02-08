@@ -92,6 +92,6 @@ Your SimpleCommerce site is now running at:
 [my-buy-it-now.com](https://my-buy-it-now.com)
 
 ## In the News
-While SimpleCommerce is **NOT** mention the following articles do mention eCommerce as a viable business.
+While SimpleCommerce is **NOT** mention the following articles, they do mention eCommerce as a viable business.
 
 - [The Best Side Hustles To Start In 2025 For Maximum Profitability](https://www.forbes.com/sites/melissahouston/2025/02/07/the-best-side-hustles-to-start-in-2025-for-maximum-profitability/)
