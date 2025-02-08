@@ -8,6 +8,17 @@ A lightweight, open-source eCommerce framework that integrates Stripe for produc
 - PHP curl module enabled
 - composer stripe library (included)
 
+## Features
+
+- No personal identifying information kept on public server
+- Stripe payment and product inventory hosting
+- Gift card purchase between giver and receiver
+- Coupons and promotion codes for periodic discounts
+- Newsletter creation and subscription containing selected products
+- ShipStation integration
+- USPS click-n-ship export
+- Sitemap and robots.txt creation
+
 ## Official User Guide
 
 ## Live Preview
