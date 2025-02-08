@@ -84,6 +84,34 @@ Your SimpleCommerce site is now running at:
 - USPS click-n-ship export
 - Sitemap and robots.txt creation
 
+## Hosting
+Business internet with a static IP is **preferred** because you have total control and responsibility of the hardware and software.
+
+### Basic Self Hosting Setup
+- Business internet with static ip (COX, Verizon, AT&T)
+- Wifi Router with POE ports (or Wifi Router + POE switch)
+- Raspberry Pi Model 4 B+ with 8 GB Ram
+- Raspberry Pi POE hat
+- 120GB to 1TB micro SD card
+
+*The latest firmware on the Raspberry PI 4B+ permits bootloading installation of the operating system
+
+1. Connect Coax Cable -> Cable Modem -> Wifi Router -> POE switch -> Raspberry PI with POE hat and microSD card installed
+2. Turn on Cable modem, wifi router
+3. Connect a computer directly to the router
+4. Configure Wifi router with the static IP and DNS provided by your ISP
+5. Connect a keyboard and monitor to the Raspberry Pi 4B+
+6. Turn on POE switch
+7. Enter Raspberry Pi boot loaded to install OS, choose Ubuntu and enable ssh-server
+8. After installation, reboot and remote connect via SSH
+9. Perform **sudo apt update && sudo apt upgrade -y**
+10. Install apache, git and the other prerequsities above
+11. Clone the simplecommerce repository under the **/var/www/html** directory
+12. Create a new apache virtual host using the DocumentRoot pf /var/www/html/simplecommerce
+13. Enable mod_rewrite, **a2enmod rewrite**
+14. Restart apache
+15. Access your ecommerce from the browser
+
 ## Official User Guide
 **COMING SOON!**
 
