@@ -113,7 +113,8 @@ Business internet with a static IP is **preferred** because you have total contr
 15. Access your ecommerce from the browser
 
 ## Official User Guide
-**COMING SOON!**
+
+[![SimpleCommerce: An e-commerce framework: Official Users Guide](assets/userguide-cover.jpg)](https://www.amazon.com/dp/B0DWQLKLCP)
 
 ## Live Preview
 
