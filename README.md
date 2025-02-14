@@ -124,3 +124,7 @@ Business internet with a static IP is **preferred** because you have total contr
 While SimpleCommerce is **NOT** mention the following articles, they do mention eCommerce as a viable business.
 
 - [The Best Side Hustles To Start In 2025 For Maximum Profitability](https://www.forbes.com/sites/melissahouston/2025/02/07/the-best-side-hustles-to-start-in-2025-for-maximum-profitability/)
+- [15 most profitable ecommerce business ideas in 2025](https://www.omnisend.com/blog/ecommerce-business-ideas/)
+- [15 Niche Ecommerce Business Ideas You Can Bank On](https://www.ecommerceceo.com/ecommerce-business-ideas/)
+- [is e-commerce worth it with little or no capital, seems very oversaturated](https://www.reddit.com/r/ecommerce/comments/vjl3he/is_ecommerce_worth_it_with_little_or_no_capital/)
+- [Is E-commerce viable business](https://makorlah.com/blogs/news/is-e-commerce-viable-business)
